@@ -1,0 +1,88 @@
+.topbar {
+  height: 56px;
+  background: white;
+  border-bottom: 1px solid #E2E8F0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 28px;
+  flex-shrink: 0;
+}
+
+.topbar-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+}
+
+.topbar-breadcrumb a {
+  color: #64748B;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+
+.topbar-breadcrumb a:hover { color: #4F46E5; }
+
+.topbar-sep { color: #CBD5E1; font-size: 0.9rem; }
+
+.topbar-current {
+  color: #4F46E5;
+  font-weight: 700;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.topbar-theme {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.topbar-theme:hover { background: #E2E8F0; }
+
+.topbar-user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: background 0.15s;
+}
+
+.topbar-user:hover { background: #F8FAFC; }
+
+.topbar-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #EEF2FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #C7D2FE;
+}
+
+.topbar-username {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+.topbar-chevron {
+  font-size: 0.7rem;
+  color: #94A3B8;
+}

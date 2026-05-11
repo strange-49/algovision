@@ -1,0 +1,155 @@
+.aip-panel {
+  width: 260px;
+  min-width: 260px;
+  height: calc(100vh - 56px);
+  overflow-y: auto;
+  background: white;
+  border-left: 1px solid #E2E8F0;
+  padding: 20px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.aip-section {
+  padding: 4px 0 16px;
+}
+
+.aip-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.aip-section-title {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: #0F172A;
+  letter-spacing: -0.2px;
+}
+
+.aip-info-icon {
+  font-size: 0.85rem;
+  color: #94A3B8;
+  cursor: pointer;
+}
+
+.aip-description {
+  font-size: 0.78rem;
+  color: #64748B;
+  line-height: 1.65;
+  margin-bottom: 14px;
+}
+
+/* Complexity table */
+.aip-complexity-table {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.aip-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+}
+
+.aip-row-dot {
+  color: #94A3B8;
+  flex-shrink: 0;
+  font-size: 0.7rem;
+}
+
+.aip-row-label {
+  color: #64748B;
+  flex: 1;
+}
+
+.aip-row-value {
+  font-weight: 700;
+  color: #0F172A;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+}
+
+.aip-divider {
+  height: 1px;
+  background: #F1F5F9;
+  margin: 4px 0 16px;
+}
+
+/* How it works */
+.aip-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.aip-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.aip-step-num {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4F46E5;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.aip-step-text {
+  font-size: 0.78rem;
+  color: #475569;
+  line-height: 1.5;
+}
+
+/* Example */
+.aip-example {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.aip-example-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.aip-example-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #64748B;
+  min-width: 52px;
+}
+
+.aip-example-arr {
+  font-size: 0.75rem;
+  color: #334155;
+  font-family: 'JetBrains Mono', monospace;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.aip-sorted-badge {
+  background: #DCFCE7;
+  color: #16A34A;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 99px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}

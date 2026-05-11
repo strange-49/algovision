@@ -1,0 +1,33 @@
+.viz-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.viz-card-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.viz-card-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.viz-card-body {
+  padding: 20px;
+}
+
+.viz-card-footer {
+  padding: 12px 20px;
+  border-top: 1px solid var(--border);
+  background: var(--bg-soft);
+}
+
+.viz-card-status {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
