@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+.bsp-layout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background: #F8FAFC;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.bsp-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 0;
+}
